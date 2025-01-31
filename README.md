@@ -19,3 +19,27 @@ Ensure you have the following Python libraries installed:
 
 ```python
 pip install requests beautifulsoup4 pandas
+```
+
+### Usage 
+
+1. Run the Script
+```python
+python amazon_scraper.py
+```
+2. Enter the product name you want to search for (e.g., laptop).
+
+3. Enter the number of pages to scrape.
+
+4. The script will save the data in amazon_products.csv.
+
+### how it works
+
+1. The script sends requests to Amazon search pages.
+
+2. Parses the HTML response using BeautifulSoup.
+
+3. Extracts product details like name, price, and URL.
+
+4. Saves the data into a CSV file.
+
