@@ -1,4 +1,4 @@
-# Amazon Product Scraper
+# Amazon and Twitter Scraping 
 
 ### Overview
 
